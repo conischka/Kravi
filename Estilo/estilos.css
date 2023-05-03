@@ -1,0 +1,80 @@
+/*body{
+    background-image: url(../IMG/Flores.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left top;
+    background-attachment: fixed;
+}*/
+
+
+
+h1{
+    color: rgb(243, 55, 187,0.8);
+    font-size: 55px;
+    font-family: 'Lobster', cursive;
+
+
+}
+#UNO{
+    color: darkmagenta;
+    font-size: 60px;
+   /*  background-color: blueviolet;*/
+} 
+.DOS{
+    color: blue;
+    font-size: 75px;
+}
+/*ul{
+    margin: 25px;
+    padding: 150px 5px;
+    border: 15px solid cornflowerblue;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 75px;
+    transform: rotate(-10deg);
+
+}*/
+img{
+    border-radius: 150px;
+    box-shadow: 10px 20px 10px #509;
+    width: 100px;
+    height: 100px;
+}
+span{
+    font-size: 32px;
+    background-color: red;
+}
+/*
+div{
+    column-count: 10;
+    column-gap: 50px;
+    column-rule: 10px double red;
+}*/
+#TRES{
+    background-color: aquamarine;
+}
+h5.cuarta{
+    background-color: red;
+}
+h5{
+    background-color: blue !important;
+}
+@media (min-width: 576px) and (max-width: 1024px) {
+    h1.prueba { width: 33%; }
+ }
+ p.texto1{
+    clear: right;
+ }
+ section img{
+    float: left;
+    margin-right: 15px;
+ }
+ .padre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+ }
+ .btn1{
+    margin-right: auto;
+ }
